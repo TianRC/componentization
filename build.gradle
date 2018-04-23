@@ -32,7 +32,7 @@ ext {
     //构建工具的版本，其中包括了打包工具aapt、dx等,如API20对应的build-tool的版本就是20.0.0
     //buildToolsVersion = "26.0.0"
     //兼容的最低 SDK 版本
-    minSdkVersion = 14
+    minSdkVersion = 15
     //向前兼容，保存新旧两种逻辑，并通过 if-else 方法来判断执行哪种逻辑
     targetSdkVersion = 27
     versionCode = 1
@@ -42,6 +42,10 @@ ext {
     junit = 'junit:junit:4.12'
     runner = 'com.android.support.test:runner:1.0.1'
     espresso = 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    //arouter
+    arouter = 'com.alibaba:arouter-api:1.2.1.1'
+    arouterCompiler = 'com.alibaba:arouter-compiler:1.1.2.1'
 }
 
 
